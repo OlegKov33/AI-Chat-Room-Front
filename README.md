@@ -61,10 +61,10 @@ export const DEFAULT_AGENTS = {
 
 ### Understanding "Number of Rounds"
 
-**Number of rounds** controls how many previous user-AI exchanges are included as context:
-- **1 round**: Only the latest user message sent to models
-- **2 rounds**: Latest user message + 1 previous Q&A pair sent as context
-- **Higher = More context** for models to understand conversation flow
+**Number of rounds** controls how many times a selected AI agent(s) will be called:
+- **1 round**: Only 1 API call will be performed. JSON -> backend -> model -> API -> response -> front
+- **2 rounds**: Only 2 API calls will be performed. JSON -> backend -> (model -> API -> response) x2 -> front
+- **Higher = Less clutter** when displaying JSON
 
 **Example:**
 ```
