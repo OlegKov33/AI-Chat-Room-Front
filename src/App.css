@@ -294,3 +294,36 @@ button:disabled {
   gap: 8px;
   flex-wrap: wrap;
 }
+
+.code-block {
+  margin: 8px 0;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #d0d7de;
+  background: #f6f8fa;
+}
+
+.code-block-language {
+  padding: 4px 8px;
+  background: #e1e4e8;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #24292e;
+  text-transform: lowercase;
+}
+
+.code-block-content {
+  margin: 0;
+  padding: 12px;
+  overflow-x: auto;
+  background: #f6f8fa;
+  color: #24292e;
+  line-height: 1.45;
+}
+
+.code-block-content code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85em;
+  white-space: pre;
+  word-break: break-word;
+}
