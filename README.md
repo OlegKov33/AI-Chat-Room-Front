@@ -1,7 +1,7 @@
 # OlegKov33's AI Chat Room
 
 A real-time, multi-user collaborative AI chat application built with React + Vite and WebSocket synchronization.
-
+<[Link to the Back-end](https://github.com/OlegKov33/AI-Chat-Room-Back)>
 ## 🎯 Features
 
 ### Chat with Multiple AI Agents
